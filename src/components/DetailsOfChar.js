@@ -9,7 +9,6 @@ class DetailsOfChar extends Component {
 
     this.state = { epsiodeName: [] };
     this.getEpsiode = this.getEpsiode.bind(this);
-    this.getFormattedEpisodeName = this.getFormattedEpisodeName.bind(this);
   }
 
   componentDidMount() {
@@ -33,7 +32,6 @@ class DetailsOfChar extends Component {
     }
   }
 
-  getFormattedEpisodeName(episodeName) {}
 
   render() {
     return (

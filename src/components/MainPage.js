@@ -43,9 +43,6 @@ class MainPage extends Component {
       html.scrollHeight,
       html.offsetHeight
     );
-    console.log(window.pageYOffset)
-    console.log(windowHeight)
-    console.log(docHeight)
     const windowBottom = windowHeight + window.pageYOffset;
     if (windowBottom >= docHeight-1) {
       if (this.pageNumber < 26) {
